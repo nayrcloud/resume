@@ -1,0 +1,191 @@
+{
+    "basics": {
+        "name": "Ryan Canty",
+        "label": "Software Developer and Cloud Architect",
+        "image": "",
+        "email": "nayr.cloud@gmail.com",
+        "phone": "(774) 270-4981",
+        "url": "https://resume.nayr.cloud",
+        "summary": "Talented and experienced software engineer with a background in cloud native application development, the IoT industry, and Web3/Blockchain. Experience managing software development teams and delivering quality products to customers.",
+        "location": {
+            "address": null,
+            "postalCode": null,
+            "city": "Boston",
+            "countryCode": "US",
+            "region": "Massachusetts"
+        },
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "username": "ryan-canty",
+                "url": "https://www.linkedin.com/in/ryan-canty/"
+            },
+            {
+                "network": "GitHub",
+                "username": "nayrcloud",
+                "url": "https://github.com/nayrcloud/"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "Amazon Web Services (AWS)",
+            "position": "Associate Cloud App Developer",
+            "url": "https://aws.amazon.com/",
+            "startDate": "2022-12-05",
+            "endDate": null,
+            "summary": "Cloud application architecture and development consultant for the AWS Professional Services Service Delivery Team. Designing and building applications on AWS for customers.",
+            "highlights": [""]
+        },
+        {
+            "name": "Preddio Technologies Inc.",
+            "position": "Application Engineer",
+            "url": "https://www.preddio.com/",
+            "startDate": "2020-03-01",
+            "endDate": "2022-12-02",
+            "summary": "Managed the development of the Simplicity Cloud platform by working directly with customers and the CEO and CTO. Designed and implemented RESTful APIs, developed real-time cloud native applications, implemented CI/CD pipelines, designed UI components, and managed the Simplicity Cloud web portal product.",
+            "highlights": [
+                "Managed the development of a software product generating ~$1,000,000/yr in revenue.",
+                "Managed a team of 2-3 web developers, planning sprints and performing code reviews."
+            ]
+        },
+        {
+            "name": "A.W. Chesterton Company",
+            "position": "IoT Application Development Technician",
+            "url": "https://www.chesterton.com/",
+            "startDate": "2019-01-01",
+            "endDate": "2020-03-01",
+            "summary": "Reporting directly to the Senior IoT Systems Architect, my main role was to develop and test the Chesterton Connect mobile application for Android and iOS. The mobile application interfaced directly with the Chesterton Connect smart sensor over Bluetooth Low Energy (BLE). I was also responsible for the R&D of Chesterton Connect Cloud.",
+            "highlights": [
+                "Contributed to the development of the Chesterton Connect mobile application, written in Xamarin Forms (C#)",
+                "Implemented a custom dual-thumb slider UI component in the Chesterton Connect mobile app that communicated with the Chesterton Connect smart sensor over BLE to configure metric threshold settings.",
+                "Setup AWS DynamoDB tables to store data entered by customers in the Chesterton Connect mobile app.",
+                "Used the AWS Mobile SDK for Xamarin to store data in DynamoDB tables.",
+                "Wrote and performed test scripts for the Chesterton Connect mobile application."
+            ]
+        },
+        {
+            "name": "LEDVANCE",
+            "position": "Software Quality Team Lead - Smart Home R&D Team",
+            "url": "https://www.ledvance.com/consumer/",
+            "startDate": "2018-06-01",
+            "endDate": "2019-01-01",
+            "summary": "Responsible for the quality of the software developed by the Smart Home R&D team, from the smart light firmware to the apps that interface with the lights. Developed automated tested software in, designed test cases and test plans, and handled customer support cases.",
+            "highlights": [
+                "Wrote automated tests for smart light firmware in C using the Linux BlueZ Bluetooth stack.",
+                "Developed a web application in HTML, CSS, and JS that controlled Bluetooth lights over HTTP. HTTP requests were made to a web server I developed on a Raspberry Pi that controlled the lights over Bluetooth using BlueZ.",
+                "Developed a POC Android mobile app in Java that controlled Bluetooth Mesh lights using the Android Bluetooth Mesh APIs. This app was used as a base for the production mobile app used by our customers.",
+                "Designed and wrote test cases and test plans for light firmware and mobile applications in JIRA using the Xray plugin."
+            ]
+        },
+        {
+            "name": "LEDVANCE",
+            "position": "Software Engineer Intern",
+            "url": "https://www.ledvance.com/consumer/",
+            "startDate": "2016-10-24",
+            "endDate": "2018-06-01",
+            "summary": "Developed production software that interfaced with smart LED light bulbs. Other responsibilities included developing applications used to test and validate smart LED lights, writing test scripts, customer support, and software and hardware testing.",
+            "highlights": [
+                "Wrote SmartThings device handlers in Groovy to support our customers in the SmartThings ecosystem.",
+                "Developed an Android mobile app in Java that controlled Zigbee lights using the Lightify REST API",
+                "Developed an Android mobile app in Java that controlled Bluetooth lights using the Android Bluetooth SDK"
+            ]
+        },
+        {
+            "name": "AIR Worldwide (now Verisk)",
+            "position": "Intern, Cyber Security Risk Modeling",
+            "url": "https://www.air-worldwide.com/",
+            "startDate": "2016-06-01",
+            "endDate": "2016-09-03",
+            "summary": "Developed software to clean customer data for use by risk modeling software",
+            "highlights": [
+                "Developed a CSV file parser in C++. Information was read in from a SQL database and my program sorted all of the information by a company's unique ID number."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Merrimack College",
+            "url": "https://www.merrimack.edu/",
+            "area": "Computer Science",
+            "studyType": "Bachelor of Science",
+            "startDate": "2015-09-01",
+            "endDate": "2019-05-01",
+            "score": "3.7",
+            "courses": []
+        }
+    ],
+    "certificates": [
+        {
+            "name": "AWS Certified Solutions Architect - Associate",
+            "date": "2021-11-07",
+            "issuer": "Amazon Web Services (AWS)",
+            "url": "https://aws.amazon.com/certification/certified-solutions-architect-associate/"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Consulting",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "Web Development",
+            "level": "",
+            "keywords": [
+                "TypeScript",
+                "JavaScript",
+                "React",
+                "Svelte",
+                "HTML",
+                "CSS",
+                "SCSS",
+                "MUI",
+                "Atomic design",
+                "MVC",
+                "Express.js",
+                "REST API"
+            ]
+        },
+        {
+            "name": "Web3 & Blockchain",
+            "level": "",
+            "keywords": ["Ethereum", "EVM", "MetaMask", "Ethers.js", "Solidity", "dApps"]
+        },
+        {
+            "name": "Cloud Architecture",
+            "level": "",
+            "keywords": ["System Design", "AWS", "IoT", "Serverless", "Microservices", "API Design"]
+        },
+        {
+            "name": "CI/CD",
+            "level": "",
+            "keywords": ["Terraform", "CloudFormation", "AWS CDK", "AWS SAM", "Automation"]
+        },
+        {
+            "name": "Software Development",
+            "level": "",
+            "keywords": [
+                "git",
+                "cli",
+                "TypeScript",
+                "JavaScript",
+                "Node.js",
+                "Python",
+                "Java",
+                "HTML",
+                "CSS",
+                "JSON",
+                "YAML",
+                "REST API",
+                "Kafka"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Native speaker"
+        }
+    ]
+}

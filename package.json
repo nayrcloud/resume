@@ -1,0 +1,77 @@
+{
+    "name": "nayr-cloud-resume",
+    "version": "0.0.1-a.1",
+    "homepage": "https://ryancanty.dev",
+    "private": true,
+    "dependencies": {
+        "@emotion/eslint-plugin": "^11.10.0",
+        "@emotion/react": "^11.10.6",
+        "@emotion/styled": "^11.10.6",
+        "@fontsource/roboto": "^4.5.8",
+        "@mui/icons-material": "^5.11.11",
+        "@mui/lab": "^5.0.0-alpha.124",
+        "@mui/material": "^5.11.14",
+        "deepmerge": "^4.3.1",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-hot-toast": "^2.4.0",
+        "react-markdown": "^8.0.6",
+        "react-scripts": "5.0.1",
+        "rehype-raw": "^6.1.1",
+        "remark-gfm": "^3.0.1"
+    },
+    "devDependencies": {
+        "@types/jest": "^27.5.2",
+        "@types/node": "^16.18.21",
+        "@types/react": "^18.0.37",
+        "@types/react-dom": "^18.0.11",
+        "@typescript-eslint/eslint-plugin": "^5.56.0",
+        "@typescript-eslint/parser": "^5.56.0",
+        "eslint": "^8.36.0",
+        "eslint-config-prettier": "^8.8.0",
+        "eslint-config-standard-with-typescript": "^34.0.1",
+        "eslint-plugin-import": "^2.27.5",
+        "eslint-plugin-n": "^15.6.1",
+        "eslint-plugin-prettier": "^4.2.1",
+        "eslint-plugin-promise": "^6.1.1",
+        "eslint-plugin-react": "^7.32.2",
+        "eslint-plugin-react-hooks": "^4.6.0",
+        "eslint-plugin-unused-imports": "^2.0.0",
+        "gh-pages": "^5.0.0",
+        "pre-commit": "^1.2.2",
+        "prettier": "^2.8.7",
+        "typescript": "^4.9.5"
+    },
+    "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "lint": "eslint . --ext 'src/**/*.{js,jsx,ts,tsx,json}'",
+        "lint:fix": "npm run lint -- --fix",
+        "format": "prettier --write '*.{js,jsx,ts,tsx,css,md,json,html}' --config ./.prettierrc",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "version-bump-alpha": "npm version prerelease -preid a --",
+        "version-bump-beta": "npm version prerelease -preid b --",
+        "version-bump-patch": "npm version patch --",
+        "version-bump-minor": "npm version minor --",
+        "version-bump-major": "npm version major --"
+    },
+    "pre-commit": [
+        "lint:fix",
+        "format"
+    ],
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
