@@ -79,13 +79,13 @@ Talented and detail-oriented software engineer with a background in cloud native
 
 ### **Amazon Web Services (AWS)** — Cloud Application Developer
 
-_December 2023 — Present_
+_December 2022 — Present_
 
 Cloud application architecture and development consultant for the AWS Professional Services Service Delivery Team. Designing and building applications on AWS for customers.
 
 ### **Preddio Technologies Inc.** — Application Engineer
 
-_March 2020 — December 2023_
+_March 2020 — December 2022_
 
 Managed the development of the Simplicity Cloud platform by working directly with customers and the CEO and CTO. Designed and implemented RESTful APIs, developed real-time cloud native applications, implemented CI/CD pipelines, designed UI components, and managed the Simplicity Cloud web portal product.
 
